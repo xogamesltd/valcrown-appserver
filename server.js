@@ -9,7 +9,7 @@ const https   = require('https');
 const http    = require('http');
 const app     = express();
 
-const PORT       = process.env.PORT || 3002;
+const PORT       = process.env.PORT || 3000;
 const GITHUB_REPO = 'xogamesltd/valcrown-app';
 const API_TIMEOUT = parseInt(process.env.API_TIMEOUT_MS) || 3000;
 
